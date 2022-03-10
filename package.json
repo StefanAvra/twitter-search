@@ -1,0 +1,24 @@
+{
+  "name": "twitter-search",
+  "version": "1.0.0",
+  "description": "Nodejs twitter search tool",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StefanAvra/twitter-search.git"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/StefanAvra/twitter-search/issues"
+  },
+  "homepage": "https://github.com/StefanAvra/twitter-search#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-fetch": "^3.2.2"
+  }
+}
