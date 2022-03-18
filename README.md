@@ -30,5 +30,5 @@ pip install -r requirements.txt
 run:
 
 ```sh
-python main.py
+python twitter_search.py
 ```
