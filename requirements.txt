@@ -6,7 +6,6 @@ filelock==3.6.0
 idna==3.3
 lxml==4.8.0
 numpy==1.22.3
-pandas==1.4.1
 pycodestyle==2.8.0
 PySocks==1.7.1
 python-dateutil==2.8.2
