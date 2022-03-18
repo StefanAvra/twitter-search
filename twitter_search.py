@@ -2,8 +2,6 @@
 
 import json
 import os
-import pandas as pd
-import sys
 import argparse
 from datetime import date
 import csv
@@ -38,7 +36,7 @@ def convert(filename):
 
 
 if __name__ == "__main__":
-    since = '2006-07-15'
+    since = '2006-07-15'  # the day twitter was launched
     query = '"ich habe keine zeit"'
     until = str(date.today())
     max_results = 0
