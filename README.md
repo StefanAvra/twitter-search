@@ -27,8 +27,14 @@ install requirements:
 pip install -r requirements.txt
 ```
 
-run:
+scrape tweets like this:
 
 ```sh
-python twitter_search.py
+python twitter_search.py scrape --query 'butterbrezel' --since 2020-01-01
+```
+
+convert it to csv like this:
+
+```sh
+python twitter_search.py convert --file tweets-butterbrezel-2020-01-01-2022-03-18.json
 ```
