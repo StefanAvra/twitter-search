@@ -21,7 +21,7 @@ def scrape(since, query, until, max_results):
 def convert(filename):
 
     fields = ['date', 'id', 'username',
-              'displayname', 'followersCount', 'verified', 'content', 'url', 'replyCount', 'retweetCount']
+              'displayname', 'followersCount', 'verified', 'content', 'url', 'replyCount', 'retweetCount', 'likeCount']
     rows = []
 
     with open(filename, "r") as file:
